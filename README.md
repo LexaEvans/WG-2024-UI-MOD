@@ -1,5 +1,4 @@
 # WG-2024-UI-MOD
-WG 2024 UI MOD <br/>
 
 Hello and Welcome everyone! This is reposotory for WG 2024 UI MOD! <br />
 
