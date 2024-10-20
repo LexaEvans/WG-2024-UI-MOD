@@ -1,5 +1,7 @@
 # WG-2024-UI-MOD
 
+Patch 10/20/2024 Fixed all the installation problem. Added background options. Lex
+
 Hello and Welcome everyone! This is reposotory for WG 2024 UI MOD! <br />
 
 Authors: <br/>                           
