@@ -342,6 +342,13 @@ Igarek  Discord evilmooon"/>
   
   <Component name="Main menu" type="Optional" text="Loadscreens">
   
+  <Component name="loadingscreensv0" type="Exclusive" text="All in one">
+               <ReplaceContent sourcePath="VID\MAIN.wmv"
+                        targetPath="Data\WARGAME\PC\48574\Data.dat"
+                        targetContentPath="assets\videos\outgame.wmv"
+					isCritical="False"/>
+             </Component>
+  
              <Component name="loadingscreensv1" type="Exclusive" text="PACT Loadscreen">
                <ReplaceContent sourcePath="VID\PACT.wmv"
                         targetPath="Data\WARGAME\PC\48574\Data.dat"
