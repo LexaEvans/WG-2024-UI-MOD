@@ -298,7 +298,7 @@ Igarek  Discord evilmooon"/>
                         targetContentPath="pc\texture\pack\commoncomponents.ppk|+pc\texture\assets\2d\interface\useoutgame\hq\hq_cubeaction_button_yellow_l.tgv"/>"
 				 </Component>
 
-		<Component name="Unit lable colors" type="Optional" text="Interface and Unit lable colors">
+		<Component name="Interface" type="Optional" text="Interface">
 		
 		<Component name="4" type="Exclusive" text="Dark interface">
            <ReplaceContent 
@@ -306,10 +306,21 @@ Igarek  Discord evilmooon"/>
             targetPath="Data\WARGAME\PC\131544\NDF_Win.dat"
             targetContentPath="pc\ndf\patchable\ui\components.ndfbin"
             isCritical="False"/>
+			</Component>
+			<Component name="6" type="Exclusive" text="Standart interface">
+                      <ReplaceContent 
+    sourcePath="mod\StndrtUI\components.ndfbin"
+            targetPath="Data\WARGAME\PC\131544\NDF_Win.dat"
+            targetContentPath="pc\ndf\patchable\ui\components.ndfbin"
+            isCritical="False"/>
+             </Component>
 
   </Component>
 
-<Component name="2" type="Exclusive" text="Blue+DarkGreen (BLUEFOR) and DarkRed+Orange (REDFOR) lables">
+			
+			<Component name="Unit lable colors" type="Optional" text="Interface">
+ 
+ <Component name="2" type="Exclusive" text="Blue+DarkGreen (BLUEFOR) and DarkRed+Orange (REDFOR) lables">
            <ReplaceContent 
     sourcePath="mod\blNdrkrd\systemcolor.ndfbin"
             targetPath="Data\WARGAME\PC\131544\NDF_Win.dat"
@@ -323,15 +334,6 @@ Igarek  Discord evilmooon"/>
     sourcePath="mod\StndrtLBL\systemcolor.ndfbin"
             targetPath="Data\WARGAME\PC\131544\NDF_Win.dat"
             targetContentPath="pc\ndf\nonpatchable\systemcolor.ndfbin"
-            isCritical="False"/>
-
-  </Component>
-
-<Component name="6" type="Exclusive" text="Standart interface">
-                      <ReplaceContent 
-    sourcePath="mod\StndrtUI\components.ndfbin"
-            targetPath="Data\WARGAME\PC\131544\NDF_Win.dat"
-            targetContentPath="pc\ndf\patchable\ui\components.ndfbin"
             isCritical="False"/>
  
   </Component>
