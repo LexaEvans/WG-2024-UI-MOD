@@ -318,7 +318,7 @@ Igarek  Discord evilmooon"/>
   </Component>
 
 			
-			<Component name="Unit lable colors" type="Optional" text="Interace | Unit Lables">
+			<Component name="Unit lable colors" type="Optional" text="Interface">
  
  <Component name="2" type="Exclusive" text="Blue+DarkGreen (BLUEFOR) and DarkRed+Orange (REDFOR) lables">
            <ReplaceContent 
