@@ -53,9 +53,25 @@ Igarek  Discord evilmooon"/>
   </Settings>
 
   <InstallCommands>
-        
+  
+					
   		<Component name="Main menu" type="Optional" text="Main Menu">
-
+		
+		 
+		<Component name="Background" type="Exclusive" text="Deathroad">
+		<ReplaceImage sourcePath="MM\fond.tgv.dds"
+                        targetPath="Data\WARGAME\PC\48574\ZZ_4.dat"
+                        targetContentPath="pc\texture\pack\outgametextures.ppk|+pc\texture\assets\2d\interface\useoutgame\fond.tgv"
+						isCritical="False"/>
+						</Component>
+		
+						<Component name="Background2" type="Exclusive" text="Strategic map">
+		<ReplaceImage sourcePath="background\stratmap.tgv.dds"
+                        targetPath="Data\WARGAME\PC\48574\ZZ_4.dat"
+                        targetContentPath="pc\texture\pack\outgametextures.ppk|+pc\texture\assets\2d\interface\useoutgame\fond.tgv"
+						isCritical="False"/>
+						</Component>
+					
                         <ReplaceImage sourcePath="MM\hq_foreground_computer.dds"
                         targetPath="Data\WARGAME\PC\48574\ZZ_4.dat"
                         targetContentPath="pc\texture\pack\outgametextures.ppk|+pc\texture\assets\2d\interface\useoutgame\hq\hq_foreground_computer.tgv"/>
@@ -65,9 +81,6 @@ Igarek  Discord evilmooon"/>
 						<ReplaceImage sourcePath="MM\hq_screen_bg.tgv.dds"
                         targetPath="Data\WARGAME\PC\48574\ZZ_4.dat"
                         targetContentPath="pc\texture\pack\outgametextures.ppk|+pc\texture\assets\2d\interface\useoutgame\hq\hq_screen_bg.tgv"/>
-						<ReplaceImage sourcePath="MM\fond.tgv.dds"
-                        targetPath="Data\WARGAME\PC\48574\ZZ_4.dat"
-                        targetContentPath="pc\texture\pack\outgametextures.ppk|+pc\texture\assets\2d\interface\useoutgame\fond.tgv"/>"
 						<ReplaceImage sourcePath="MM\hq_background_etiquette.tgv.dds"
                         targetPath="Data\WARGAME\PC\48574\ZZ_4.dat"
                         targetContentPath="pc\texture\pack\outgametextures.ppk|+pc\texture\assets\2d\interface\useoutgame\hq\hq_background_etiquette.tgv"/>"
@@ -284,8 +297,7 @@ Igarek  Discord evilmooon"/>
                         targetPath="Data\WARGAME\PC\116084\130278\ZZ_4.dat"
                         targetContentPath="pc\texture\pack\commoncomponents.ppk|+pc\texture\assets\2d\interface\useoutgame\hq\hq_cubeaction_button_yellow_l.tgv"/>"
 				 </Component>
-			
-		
+
 		<Component name="Unit lable colors" type="Optional" text="Interface and Unit lable colors">
 		
 		<Component name="4" type="Exclusive" text="Dark interface">
