@@ -300,6 +300,7 @@ Igarek  Discord evilmooon"/>
 
 		<Component name="Interface" type="Optional" text="Interface">
 		
+		
 		<Component name="4" type="Exclusive" text="Dark interface">
            <ReplaceContent 
     sourcePath="mod\DarkUI\components.ndfbin"
@@ -314,6 +315,7 @@ Igarek  Discord evilmooon"/>
             targetContentPath="pc\ndf\patchable\ui\components.ndfbin"
             isCritical="False"/>
              </Component>
+			 
 
   </Component>
 
@@ -328,6 +330,17 @@ Igarek  Discord evilmooon"/>
             isCritical="False"/>
 
   </Component>
+  
+  <Component name="13" type="Exclusive" text="Colourblind mod for lables">
+           <ReplaceContent 
+    sourcePath="mod\Cmfl\systemcolor.ndfbin"
+            targetPath="Data\WARGAME\PC\131544\NDF_Win.dat"
+            targetContentPath="pc\ndf\nonpatchable\systemcolor.ndfbin"
+            isCritical="False"/>
+
+  </Component>
+  
+  
 
 <Component name="5" type="Exclusive" text="Standart unit lable">
            <ReplaceContent 
